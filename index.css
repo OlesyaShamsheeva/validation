@@ -1,0 +1,36 @@
+body {
+    background: antiquewhite;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    padding-bottom: 32px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    padding-top: 32px;
+}
+
+.validation_el {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.redBorder {
+    border: 1px solid red;
+}
