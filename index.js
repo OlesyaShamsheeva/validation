@@ -60,7 +60,6 @@ function onInput(el) {
     }
 }
 
-
 const funTotal = (total) => {
     if (Object.values(total).includes(false)) {
         console.log("Error");
